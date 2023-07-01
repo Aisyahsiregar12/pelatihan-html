@@ -1,0 +1,118 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pendaftaran</title>
+    <style>
+        fieldset{
+            width: 180px;
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+            margin: auto;
+        }
+        button{
+          background-color: blue;
+        }
+        input:focus{
+            background-color: red;
+            border-radius: 4px;
+            padding: 10px 15px;
+        }
+        button:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>form login</legend>
+            <label for="">Masukkan username :
+                <input type="text" placeholder="Masukkan Username">
+            </label>
+            <label for="">Masukkan Password:
+                <input type="password" placeholder="Masukan Password">
+            </label>
+            <button>Login</button>
+        </fieldset>
+    </form>
+</body>
+
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>pra uts 2020 nomor 5</title>
+    <style>
+      form {
+        padding: 40px;
+        width: 350px;
+        background-color: #ff0000;
+        border: 1px solid;
+        border-radius: 20px;
+      }
+
+      #input {
+        padding: 5px;
+        /* width: 50vh; */
+      }
+      .inputan {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .gender {
+        display: flex;
+        flex-direction: column;
+      }
+      .action {
+        margin-top: 20px;
+      }
+      button {
+        padding: 5px;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div class="inputan">
+        <p>Welcome to Integer</p>
+        <label for="name">Nama</label>
+        <input type="text" name="name" id="input" />
+        <label for="age">Age</label>
+        <input type="number" name="age" id="input" />
+        <label for="date">Date of Birthday</label>
+        <input type="date" name="date" id="input" />
+        <div class="gender">
+          Gender
+          <label for="gender"> <input type="radio" name="gender" />Male </label>
+          <label for="gender">
+            <input type="radio" name="gender" />Female
+          </label>
+        </div>
+        <label for="city">City </label>
+        <select name="city" id="input">
+          <option value="">Ciamis</option>
+          <option value="">Banjar</option>
+          <option value="" selected>Bandung</option>
+        </select>
+      </div>
+      <div class="action">
+        <button type="submit">Join Us</button>
+        <button type="reset">Reset Data</button>
+      </div>
+    </form>
+  </body>
+</html>

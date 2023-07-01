@@ -1,0 +1,43 @@
+h1{
+    background-color: rgb(51, 78, 101);
+    color: white;
+    /* to botton .to left,to right*/
+    /* to top */
+    background-image: linear-gradient( pink,rgb(142, 137, 97));
+}
+.heading-1{
+    text-align: center;
+}
+.aisyah{
+    color:rgb(110, 107, 123);
+}
+/* saat di sentuh dia berubah */
+.aisyah:hover{
+    color: rgb(224, 105, 20);
+}
+button{
+    padding: 7px;
+    background-color: aqua;
+}
+/* active pas di klik */
+button:active{
+    background-color: black;
+    color: rgb(218, 152, 199);
+}
+input[type=text]{
+   border: 3px solid lightblue;
+}
+input[type=text]:focus{
+    border: 5px solid rgb(185, 181, 201);
+    color: rgb(15, 14, 13);
+ }
+ /* baris pertama jd berubah warna sesuai color */
+.baris-1::first-line{
+    color: deeppink;
+}
+body{
+    background-image: url(rayyanza-malik-ahmad_34.jpeg);
+    background-repeat: initial;
+    background-size: contain;
+}
+

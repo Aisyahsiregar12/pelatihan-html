@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDIT FORM</title>
+    <style>
+        h3 {
+            text-align: center;
+        }
+        .baris-1 {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            gap: 12px;
+        }
+        input,
+        button {
+            margin-bottom: 22px;
+            border: 2px solid white;
+            border-radius: 4px;
+            padding: 8px;
+        }
+        body {
+            width: 80%;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+
+        }
+        .nama,
+        .telp,
+        .email {
+            gap: 20px;
+            padding: 12px;
+
+        }
+        fieldset {
+            background-color: #AEE2FF;
+        }
+        input[type=email] {
+            width: 90%;
+            margin: 12px;
+        }
+        input[type=text],
+        input[type=number] {
+            width: 65%;
+            margin: 12px;
+        }
+        .akhir {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            margin-left: 65px;
+        }
+        .warna-1{
+            background-color: #146C94;
+            color: white;
+        }
+        .warna-2{
+            background-color: #B04759;
+            color: aliceblue;
+        }
+        .warna-3{
+            background-color: #4D4D4D;
+            color: white;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+    <fieldset>
+        <h3>EDIT FORM</h3>
+        <form action="">
+            <class class="baris-1">
+                <div class="nama">
+                    <label for="">Nama</label>
+                    <input type="text" placeholder="Masukkan Nama">
+                </div>
+                <div class="telp">
+                    <label for="">Nomor Telepon</label> 
+                    <input type="number" placeholder="Masukkan Nomor Telepon">
+                </div>
+            </class>
+            <div class="email">
+                <label for="">Email</label>
+                <input type="email" placeholder="Masukkan Email">
+            </div>
+            <div class="akhir">
+                
+                <button class="warna-1" onclick="alert('Selamat Data Berhasil Di Update')">Update</button>
+                <button class="warna-2" onclick="confirm('Apakah anda akan menghapus data ini ?')">Hapus</button>
+                <button class="warna-3" onclick="prompt('Masukan Nama : ')">Simpan</button>
+            </div>
+        </form>
+    </fieldset>
+</body>
+
+</html>

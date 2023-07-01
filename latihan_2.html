@@ -1,0 +1,220 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>pra uts 2020 nomor 5</title>
+    <style>
+      form {
+        padding: 40px;
+        width: 350px;
+        background-color: #ff0000;
+        border: 1px solid;
+        border-radius: 20px;
+      }
+
+      #input {
+        padding: 5px;
+        /* width: 50vh; */
+      }
+      .inputan {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .gender {
+        display: flex;
+        flex-direction: column;
+      }
+      .action {
+        margin-top: 20px;
+      }
+      button {
+        padding: 5px;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <div class="inputan">
+        <p>Welcome to Integer</p>
+        <label for="name">Nama</label>
+        <input type="text" name="name" id="input" />
+        <label for="age">Age</label>
+        <input type="number" name="age" id="input" />
+        <label for="date">Date of Birthday</label>
+        <input type="date" name="date" id="input" />
+        <div class="gender">
+          Gender
+          <label for="gender"> <input type="radio" name="gender" />Male </label>
+          <label for="gender"><input type="radio" name="gender" />Female</label>
+        </div>
+        <label for="city">City </label>
+        <select name="city" id="input">
+          <option value="">Ciamis</option>
+          <option value="">Banjar</option>
+          <option value="" selected>Bandung</option>
+        </select>
+      </div>
+      <div class="action">
+        <button type="submit">Join Us</button>
+        <button type="reset">Reset Data</button>
+      </div>
+    </form>
+  </body>
+</html> -->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2" width="330px" height="300px" style="text-align: center;">
+
+    <tr>
+      <td colspan="7">A</td>
+      <td rowspan="6">B</td>
+    </tr>
+    <tr>
+      <td rowspan="6">C</td>
+      <td colspan="5">D</td>
+      <td rowspan="4">E</td>
+    </tr>
+    <tr>
+      <td rowspan="4">F</td>
+      <td colspan="3">G</td>
+      <td rowspan="2">H</td>
+    </tr>
+    <tr>
+      <td rowspan="2">I</td>
+      <td colspan="2">GETCH</td>
+    </tr>
+    <tr>
+      <td colspan="3">K</td>
+    </tr>
+    <tr>
+        <td colspan="5">L</td>
+    </tr>
+    <tr>
+        <td colspan="7">M</td>
+    </tr>
+</body>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Judul Website</title>
+  <style>
+    body {
+      text-align: justify;
+    }
+
+    ul {
+      list-style-type: square;
+    }
+
+    p {
+      text-indent: 2em;
+    }
+
+    mark {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Judul Halaman</h1>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vitae aliquam leo. Integer maximus augue eget feugiat rhoncus. Quisque venenatis bibendum urna, sit amet ullamcorper sapien lacinia sed.</p>
+
+  <ul type="circle">
+    <li>List item 1</li>
+    <li>List item 2</li>
+    <li>List item 3</li>
+  </ul>
+
+  <p>Nulla vestibulum odio elit, non hendrerit metus rutrum at. <mark>Maecenas consectetur</mark> convallis elit, at posuere velit consectetur ac. Fusce posuere ex id volutpat fringilla.</p>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contoh Form</title>
+  <style>
+    fieldset {
+      margin-bottom: 20px;
+    }
+    legend {
+      font-weight: bold;
+    }
+    .gender{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulir Pendaftaran</h1>
+
+  <form>
+    <fieldset>
+      <legend>Data Pribadi</legend>
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama">
+      <div class="gender">
+      <label for="gender">Jenis Kelamin:</label>
+      <label>
+        <input type="radio" name="gender" value="pria" required> Pria
+      </label>
+      <label>
+        <input type="radio" name="gender" value="wanita" required> Wanita
+      </label>
+    </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pilihan Makanan</legend>
+      <label for="makanan1">
+        <input type="checkbox" id="makanan1" name="makanan" value="burger"> Burger
+      </label>
+      <label for="makanan2">
+        <input type="checkbox" id="makanan2" name="makanan" value="pizza"> Pizza
+      </label>
+      <label for="makanan3">
+        <input type="checkbox" id="makanan3" name="makanan" value="nasi goreng"> Nasi Goreng
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Komentar</legend>
+      <label for="komentar">Komentar:</label>
+      <textarea id="komentar" name="komentar" rows="5" required></textarea>
+    </fieldset>
+
+    <fieldset>
+      <legend>Pilihan Kota</legend>
+      <label for="kota">Kota:</label>
+      <select id="kota" name="kota" required>
+        <option value="">Pilih Kota</option>
+        <option value="jakarta">Jakarta</option>
+        <option value="bandung">Bandung</option>
+        <option value="surabaya">Surabaya</option>
+      </select>
+    </fieldset>
+
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>

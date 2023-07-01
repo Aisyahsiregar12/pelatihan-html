@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelatihan Ketiga</title>
+    <!-- ini namanya css internal (style) -->
+    <!-- beda id sama class -->
+    <!-- flex itu sama kyk inline  -->
+    <!-- grid  -->
+    <style>
+        .btn {
+            background-color: blue;
+        }
+
+        .btn1 {
+            background-color: aqua;
+        }
+
+        ul {
+            display: flex;
+            width: 300px;
+            justify-content: space-between;
+        }
+
+        span {
+            display: flex;
+            /* ngatur kiri kanan (justify) */
+            justify-content: space-between;
+        }
+
+        .container {
+            display: flex;
+            /* ngatur atas bawah(align) */
+            align-items: center;
+        }
+
+        .container2 {
+            background-color: aqua;
+        }
+        section{
+            display:grid;
+            grid-template-columns: 1fr 3fr 1fr;
+        }
+        .content{
+            border :2px solid black;
+            /* dashed,dotted,solid */
+        }
+        .container2{
+            border :2px solid aqua;
+        }
+        .container3{
+            border :2px solid black;
+        }
+        aside{
+            border :2px solid black;
+        }
+        footer{
+            border :2px solid black;
+        }
+        img{
+            width: 25px;
+            height: 25px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Aisyah</h1>
+            <a href="beranda.html" target="_blank" title="membuka Beranda.html">Beranda</a>
+            <img src="" alt="gambar apa ?">
+        </header>
+        <nav>
+            <h2>Siregar</h2>
+        </nav>
+        <nav>
+            <!-- <ul type = "circle"> 
+            <li>Home</li>
+            <li>Tutorial</li>
+            <li>Buku</li>
+            <li>Forum</li>
+        </ul> -->
+            <!-- buat simbol -->
+            <!-- ini css inline -->
+            <ul style="list-style: none;">
+                <span>
+                    <img src="home.png" alt="">
+                    <li>Home</li>
+                </span>
+                <span>
+                    <img src="home.png" alt="">
+                    <li>Buku</li>
+                </span>
+                <span>
+                    <img src="home.png" alt="">
+                    <li>Tutorial</li>
+                </span>
+                <span>
+                    <img src="home.png" alt="">
+                    <li>Forum</li>
+                </span>
+            </ul>
+
+        </nav>
+    </div>
+    <!-- <button class="btn">A</button>
+    <button class="btn">B</button>
+     <button id="btn1">C</button> -->
+
+    <div class="container2">
+        <h2>Daftar Isi</h2>
+ 
+        <ol>
+            <li><a href="#data-diri">  Data Diri</a></li>
+            <li><a href="#data-prestasi">Data Prestasi</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+        
+        </ol>
+    </div>
+    <section>
+        <aside>
+            <h3>Ini adalah iklan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime error voluptatibus rem eaque
+                accusantium labore porro. Neque sint, ipsa itaque quo, voluptatum at dolorem impedit, iusto non
+                voluptatem minima!</p>
+        </aside>
+        <div class="container3">
+            <div id="data-diri" class="content">
+                <h1>Data Diri</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae obcaecati doloremque earum, adipisci officiis voluptas commodi quos harum, exercitationem, delectus ipsa? Optio vitae commodi culpa quae. Nemo, impedit in! Eligendi.
+                Culpa quisquam fugit beatae optio quibusdam autem vel corrupti doloribus, mollitia, error eum quam perspiciatis tempore incidunt et molestiae voluptate quod minus id reprehenderit? Totam architecto est quas blanditiis quis?</p>
+            </div>
+            <div id="data-prestasi" class="content">
+                <h1>Data Prestasi</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo fuga vitae sequi atque iste nostrum expedita! Distinctio magni illum eum, quia soluta omnis quos et officiis molestias eveniet vitae delectus.
+                Et iste architecto aliquam veniam illo consequuntur, dolorum debitis iusto odio blanditiis excepturi voluptate temporibus explicabo, voluptatem distinctio possimus quia at labore omnis error accusantium ab dolores. Accusantium, hic corrupti.</p>
+            </div>
+            <div id="pengalaman" class="content">
+                <h1>Pengalaman</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium obcaecati iste nam temporibus labore quae hic animi, commodi enim. Quibusdam quidem, expedita minima quisquam saepe quasi dolorum eum repellat labore!
+                Incidunt, sequi reprehenderit! Modi neque debitis cum eaque fugit tempora, libero quia praesentium ipsam ad aliquid ipsa quaerat eligendi natus corporis optio quae recusandae aspernatur! Officia recusandae provident ipsum eos.</p>
+            </div>
+        </div>
+        <aside>
+            <h3>Ini adalah iklan</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi maxime error voluptatibus rem
+                eaque accusantium labore porro. Neque sint, ipsa itaque quo, voluptatum at dolorem impedit, iusto
+                non voluptatem minima!</p>
+        </aside>
+    </section>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro sed fugit consequatur deserunt architecto odio tempora optio quaerat iusto. Accusamus doloribus nisi fuga quos ducimus doloremque sit nam itaque rerum.</p>
+    </footer>
+</body>
+
+</html>
